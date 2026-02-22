@@ -1,102 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<!-- HEAD -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cajero Automtico Tkinter - Nestor Leiva</title>
-    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8"> <!-- Codificación UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive -->
+    <title>Cajero Automático Tkinter - Nestor Leiva</title>
+    <link rel="stylesheet" href="estilos.css"> <!-- CSS Externo -->
 </head>
 
+<!-- BODY -->
+
 <body>
-    <!-- Header fijo con datos siempre visibles + enlace de regreso -->
+    <!-- HEADER -->
     <header class="header">
         <div class="header-content">
+            <!-- BOTÓN VOLVER -->
             <div class="header-nav">
                 <a href="index.html" class="back-btn">← Volver al portafolio</a>
             </div>
+
+            <!-- NOMBRE + CONTACTO -->
             <div>
                 <h1>Nestor Leiva</h1>
                 <div class="contact-info">
-                    <p>+506 0000-0000</p>
-                    <p>nestor.leiva@email.com</p>
+                    <p>+506 0000-0000</p> <!-- Teléfono -->
+                    <p>nestor.leiva@email.com</p> <!-- Email -->
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- MAIN -->
     <main class="main-wrapper">
-        <!-- Card principal del proyecto -->
+        <!-- CARD PROYECTO -->
         <div class="project-detail-card">
-            <!-- GALERÍA DE 2 IMÁGENES -->
+
+            <!-- IMÁGENES -->
             <div class="project-image-section">
                 <div class="images-gallery">
-                    <!-- Imagen 1: Menú principal -->
+
+                    <!-- IMAGEN 1 -->
                     <div class="gallery-item">
                         <img src="cajero-menu.png" alt="Menú principal cajeros" class="gallery-image">
-
                     </div>
 
-                    <!-- Imagen 2: Transacción -->
+                    <!-- IMAGEN 2 -->
                     <div class="gallery-item">
                         <img src="cajero-transaccion.png" alt="Operación cajero" class="gallery-image">
-
                     </div>
+
                 </div>
             </div>
 
-
-            <!-- Detalles del proyecto -->
+            <!-- DETALLES -->
             <div class="project-details">
+
+                <!-- TÍTULO -->
                 <h1 class="project-title">Cajero Automático<br>con Tkinter</h1>
 
+                <!-- META -->
                 <div class="project-meta">
                     <span class="meta-item">TI-141 Programación III</span>
                     <span class="meta-item">II Cuatrimestre 2024</span>
                     <span class="meta-item">Colegio Universitario de Cartago</span>
                 </div>
 
+                <!-- OBJETIVO -->
                 <div class="section-title">Objetivo del proyecto</div>
                 <p class="project-description">
                     Sistema completo de cajeros automáticos desarrollado con <strong>Tkinter</strong>
-                    (interfaz gráfica) y <strong>SQL Server 2016</strong>. Implementa selección de cajeros
-                    disponibles, operaciones bancarias (depósitos, retiros, consultas) con validaciones
-                    y auditoría completa de transacciones en base de datos.
+                    (interfaz gráfica) y <strong>SQL Server 2016</strong>.
                 </p>
 
+                <!-- TECNOLOGÍAS -->
                 <div class="section-title">Tecnologías utilizadas</div>
                 <div class="tech-stack">
-                    <div class="tech-item">
-                        <strong>Lenguaje:</strong> Python 3.x
-                    </div>
-                    <div class="tech-item">
-                        <strong>Interfaz:</strong> Tkinter (GUI)
-                    </div>
-                    <div class="tech-item">
-                        <strong>Base de datos:</strong> SQL Server 2016 (Nivel 130)
-                    </div>
-                    <div class="tech-item">
-                        <strong>Tablas:</strong> Usuarios, Bancos, Cuentas, Auditoría
-                    </div>
+                    <div class="tech-item"><strong>Lenguaje:</strong> Python 3.x</div>
+                    <div class="tech-item"><strong>Interfaz:</strong> Tkinter (GUI)</div>
+                    <div class="tech-item"><strong>Base de datos:</strong> SQL Server 2016</div>
+                    <div class="tech-item"><strong>Tablas:</strong> Usuarios, Bancos, Cuentas</div>
                 </div>
 
+                <!-- GITHUB -->
                 <div class="section-title">Repositorio fuente</div>
                 <div class="github-link">
-                    <a href="https://github.com/NestorLeiva/TareasPython" target="_blank" class="github-btn"> Tarea # 6
-                        en GitHub </a>
+                    <a href="https://github.com/NestorLeiva/TareasPython" target="_blank" class="github-btn">
+                        Tarea #6 en GitHub
+                    </a>
                 </div>
 
+                <!-- FEATURES -->
                 <div class="section-title">Funcionalidades principales</div>
                 <ul class="features-list">
-                    <li>Menú principal con selección de cajeros (estado: libre/ocupado/mantenimiento)</li>
-                    <li>Autenticación de usuarios con credenciales simuladas</li>
-                    <li>Transacciones: depósito, retiro, consulta de saldo, cambio de cajero</li>
-                    <li>Validaciones de montos y límites de transacción</li>
-                    <li>Base de datos relacional con tablas de auditoría</li>
-                    <li>Diagrama Entidad-Relación diseñado</li>
-                    <li>Carga automática de datos iniciales</li>
+                    <li>Menú principal con selección de cajeros</li>
+                    <li>Autenticación de usuarios</li>
+                    <li>Transacciones: depósito, retiro, consulta</li>
+                    <li>Base de datos relacional</li>
                 </ul>
 
+                <!-- ACADÉMICO -->
                 <div class="section-title">Contexto académico</div>
                 <div class="academic-info">
                     <p>
@@ -106,11 +110,11 @@
                     </p>
                 </div>
 
-
             </div>
         </div>
     </main>
 
+    <!-- SCRIPT -->
     <script src="script.js"></script>
 </body>
 

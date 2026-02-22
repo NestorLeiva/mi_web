@@ -1,105 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<!-- HEAD -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- Codificación UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive -->
     <title>Nestor Leiva - Portafolio</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css"> <!-- Estilos CSS -->
 </head>
 
+<!-- BODY -->
+
 <body>
-    <!-- Header fijo con datos siempre visibles -->
+    <!-- HEADER FIJO -->
     <header class="header">
         <div class="header-content">
-            <h1>Nestor Leiva</h1>
+            <h1>Nestor Leiva</h1> <!-- Nombre principal -->
+
+            <!-- CONTACTO -->
             <div class="contact-info">
-                <p>+506 0000-0000</p>
-                <p>nestor.leiva@email.com</p>
+                <p>+506 0000-0000</p> <!-- Teléfono -->
+                <p>nestor.leiva@email.com</p> <!-- Email -->
             </div>
         </div>
     </header>
 
+    <!-- MAIN -->
     <main class="main-wrapper">
-        <!-- Card principal -->
+
+        <!-- CARD PERFIL -->
         <div class="card">
-            <!-- Avatar -->
+
+            <!-- AVATAR IZQUIERDO -->
             <div class="profile-section">
-                <div class="avatar">NL</div>
-                <h2 class="name">Nestor Leiva</h2>
+                <div class="avatar">NL</div> <!-- Iniciales perfil -->
+                <h2 class="name">Nestor Leiva</h2> <!-- Nombre completo -->
+
+                <!-- BIO -->
                 <p class="bio">
                     Estudiante de TI enfocado en desarrollo de software y bases de datos.
                     Apasionado por crear soluciones prácticas y eficientes.
                 </p>
             </div>
 
-            <!-- Secciones dinámicas con tabs -->
+            <!-- HABILIDADES DERECHA -->
             <div class="content-section">
                 <div class="section-title">Información adicional</div>
 
-                <!-- Tabs -->
+                <!-- BOTONES TABS -->
                 <div class="tabs">
                     <button class="tab-btn active" data-section="cualidades">Cualidades</button>
                     <button class="tab-btn" data-section="tecnicas">Técnicas</button>
                     <button class="tab-btn" data-section="blandas">Blandas</button>
                 </div>
 
-                <!-- Contenido de tabs -->
+                <!-- TAB 1 - CUALIDADES -->
                 <div id="cualidades" class="tab-content active">
-                    <p>
-                        Soy una persona <strong>responsable y orientada al detalle</strong>, con gran capacidad
-                        de aprendizaje continuo y adaptabilidad a nuevos retos. Busco oportunidades para crecer
-                        profesionalmente en desarrollo de software y bases de datos, aportando soluciones de
-                        calidad y valor real.
-                    </p>
+                    <p>Soy responsable, orientado al detalle, aprendizaje continuo</p>
                 </div>
 
+                <!-- TAB 2 - TÉCNICAS -->
                 <div id="tecnicas" class="tab-content">
                     <ul class="skills-list">
                         <li><strong>Lenguajes:</strong> Java, Python, C#, JavaScript</li>
                         <li><strong>Bases de datos:</strong> MySQL, SQL Server</li>
-                        <li><strong>Herramientas:</strong> Visual Studio, VS Code, Git/GitHub</li>
+                        <li><strong>Herramientas:</strong> Visual Studio, VS Code, Git</li>
                         <li><strong>Web:</strong> HTML, CSS, JavaScript básico</li>
                     </ul>
                 </div>
 
+                <!-- TAB 3 - BLANDAS -->
                 <div id="blandas" class="tab-content">
                     <ul class="skills-list">
-                        <li>Trabajo en equipo y colaboración efectiva</li>
-                        <li>Comunicación clara y asertiva</li>
-                        <li>Gestión del tiempo y organización</li>
-                        <li>Resolución de problemas y adaptabilidad</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Comunicación clara</li>
+                        <li>Gestión del tiempo</li>
+                        <li>Resolución problemas</li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Proyectos -->
+        <!-- PROYECTOS -->
         <div class="projects-section">
             <div class="section-title">Proyectos destacados</div>
 
+            <!-- GRID 3 PROYECTOS -->
             <div class="projects-grid">
+
+                <!-- PROYECTO 1 -->
                 <div class="project-card">
                     <h3>Distribuidora la Zarzuela</h3>
-                    <p>Gestión  de clientes, productos y ventas.</p>
+                    <p>Gestión clientes, productos y ventas</p>
                     <a href="proyecto1.html" class="project-link">Ver proyecto →</a>
                 </div>
 
+                <!-- PROYECTO 2 -->
                 <div class="project-card">
                     <h3>Cajero Automático<br>Tkinter + SQL Server</h3>
-                    <p>Sistema bancario con interfaz gráfica en Python.</p>
+                    <p>Sistema bancario con interfaz gráfica Python</p>
                     <a href="proyecto2.html" class="project-link">Ver proyecto →</a>
                 </div>
 
+                <!-- PROYECTO 3 -->
                 <div class="project-card">
-                    <h3>Dashboard </h3>
-                    <p> </p>
+                    <h3>Dashboard</h3>
+                    <p>Visualización métricas</p>
                     <a href="proyecto3.html" class="project-link">Ver proyecto →</a>
                 </div>
+
             </div>
         </div>
     </main>
 
+    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
 </body>
 

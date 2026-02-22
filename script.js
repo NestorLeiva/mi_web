@@ -1,31 +1,31 @@
-/* ========================================
-   EVENTOS DE TABS - LÓGICA COMPLETA
-   ======================================== */
+// DOM READY
 document.addEventListener('DOMContentLoaded', function() {
   
-  /* 1. Captura botones Y contenidos */
+  // BOTONES TABS
   const tabButtons = document.querySelectorAll('.tab-btn');
+  
+  // CONTENIDOS TABS
   const tabContents = document.querySelectorAll('.tab-content');
 
-  /* 2. Para CADA botón, agrega click listener */
+  // EVENTOS CLICK
   tabButtons.forEach(button => {
     button.addEventListener('click', () => {
       
-      /* 3. Identifica qué tab quiere (data-section) */
+      // TARGET TAB
       const targetSection = button.getAttribute('data-section');
       
-      /* 4. QUITA active de TODOS los botones */
+      // LIMPIA BOTONES
       tabButtons.forEach(btn => btn.classList.remove('active'));
       
-      /* 5. PONE active SOLO en el clickeado */
+      // ACTIVA CLICK
       button.classList.add('active');
-      
-      /* 6. MUESTRA SOLO el contenido correcto */
+
+      // MUESTRA TAB
       tabContents.forEach(content => {
         if (content.id === targetSection) {
-          content.classList.add('active');  // display: block
+          content.classList.add('active');   // VISIBLE
         } else {
-          content.classList.remove('active'); // display: none
+          content.classList.remove('active'); // OCULTO
         }
       });
     });

@@ -1,77 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<!-- HEAD -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- Codificación caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile responsive -->
     <title>Proveeduría La Zarzuela - Nestor Leiva</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css"> <!-- Estilos externos -->
 </head>
 
+<!-- BODY -->
+
 <body>
-    <!-- Header fijo con datos siempre visibles + enlace de regreso -->
+    <!-- HEADER -->
     <header class="header">
         <div class="header-content">
+            <!-- BOTÓN VOLVER -->
             <div class="header-nav">
                 <a href="index.html" class="back-btn">← Volver al portafolio</a>
             </div>
+
+            <!-- INFO PERSONAL -->
             <div>
-                <h1>Nestor Leiva</h1>
-                <div class="contact-info">
-                    <p>+506 0000-0000</p>
-                    <p>nestor.leiva@email.com</p>
+                <h1>Nestor Leiva</h1> <!-- Nombre principal -->
+                <div class="contact-info"> <!-- Contacto -->
+                    <p>+506 0000-0000</p> <!-- Teléfono -->
+                    <p>nestor.leiva@email.com</p> <!-- Email -->
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- MAIN -->
     <main class="main-wrapper">
-        <!-- Card principal del proyecto -->
+        <!-- CARD PROYECTO -->
         <div class="project-detail-card">
-            <!-- Imagen principal -->
+
+            <!-- IMAGEN PRINCIPAL -->
             <div class="project-image-section">
                 <div class="project-image-placeholder">
-                    <img src="zarzuela-captura.png" alt="Proveeduria La Zarzuela" class="project-image">
-
+                    <img src="zarzuela-captura.png" alt="Proveeduría La Zarzuela" class="project-image">
                 </div>
             </div>
 
-            <!-- Detalles del proyecto -->
+            <!-- CONTENIDO -->
             <div class="project-details">
+
+                <!-- TÍTULO -->
                 <h1 class="project-title">Proveeduría Distribuidora<br>La Zarzuela</h1>
 
+                <!-- META INFO -->
                 <div class="project-meta">
-                    <span class="meta-item">TI-131 Programación II</span>
-                    <span class="meta-item">I Cuatrimestre 2024</span>
-                    <span class="meta-item">Colegio Universitario de Cartago</span>
+                    <span class="meta-item">TI-131 Programación II</span> <!-- Materia -->
+                    <span class="meta-item">I Cuatrimestre 2024</span> <!-- Periodo -->
+                    <span class="meta-item">Colegio Universitario de Cartago</span> <!-- Institución -->
                 </div>
 
+                <!-- OBJETIVO -->
                 <div class="section-title">Objetivo del proyecto</div>
                 <p class="project-description">
-                    Aplicación de escritorio desarrollada para gestionar operaciones de
-                    una proveeduría distribuidora. Implementa <strong>arquitectura en capas</strong>,
-                    Programación Orientada a Objetos (POO), manejo avanzado de archivos,
-                    validación de datos robusta y control exhaustivo de errores.
+                    Aplicación de escritorio para proveeduría. Arquitectura en capas, POO,
+                    manejo archivos, validación datos y control errores.
                 </p>
 
+                <!-- TECNOLOGÍAS -->
                 <div class="section-title">Tecnologías utilizadas</div>
                 <div class="tech-stack">
-                    <div class="tech-item">
-                        <strong>IDE:</strong> Visual Studio Community 2022
-                    </div>
-                    <div class="tech-item">
-                        <strong>Framework:</strong> .NET 7
-                    </div>
-                    <div class="tech-item">
-                        <strong>Lenguaje:</strong> C#
-                    </div>
-                    <div class="tech-item">
-                        <strong>Arquitectura:</strong> Capas (Presentación, Lógica, Datos)
-                    </div>
+                    <div class="tech-item"><strong>IDE:</strong> Visual Studio 2022</div>
+                    <div class="tech-item"><strong>Framework:</strong> .NET 7</div>
+                    <div class="tech-item"><strong>Lenguaje:</strong> C#</div>
+                    <div class="tech-item"><strong>Arquitectura:</strong> Capas</div>
                 </div>
 
-
-                <!-- AGREGAR DESPUÉS de "Tecnologías utilizadas" -->
+                <!-- GITHUB -->
                 <div class="section-title">Repositorio en GitHub</div>
                 <div class="github-link">
                     <a href="https://github.com/NestorLeiva/ProyectoProveeduriaDistribuidoraLaZarzuela" target="_blank"
@@ -80,18 +82,18 @@
                     </a>
                 </div>
 
-
+                <!-- FUNCIONALIDADES -->
                 <div class="section-title">Funcionalidades principales</div>
                 <ul class="features-list">
-                    <li>Gestión completa de productos y inventario</li>
-                    <li>Registro de proveedores y clientes</li>
-                    <li>Control de compras y ventas</li>
-                    <li>Generación de reportes y estadísticas</li>
-                    <li>Validación de datos en tiempo real</li>
-                    <li>Manejo de archivos para persistencia</li>
-                    <li>Sistema de manejo de errores robusto</li>
+                    <li>Gestión productos e inventario</li>
+                    <li>Registro proveedores/clientes</li>
+                    <li>Control compras/ventas</li>
+                    <li>Reportes y estadísticas</li>
+                    <li>Validación datos tiempo real</li>
+                    <li>Manejo archivos persistencia</li>
                 </ul>
 
+                <!-- ACADÉMICO -->
                 <div class="section-title">Contexto académico</div>
                 <div class="academic-info">
                     <p>
@@ -100,10 +102,12 @@
                         <strong>Institución:</strong> Colegio Universitario de Cartago
                     </p>
                 </div>
+
             </div>
         </div>
     </main>
 
+    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
 </body>
 
