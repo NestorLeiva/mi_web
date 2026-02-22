@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automático Tkinter - Nestor Leiva</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <!-- Header fijo con datos siempre visibles + enlace de regreso -->
+    <header class="header">
+        <div class="header-content">
+            <div class="header-nav">
+                <a href="index.html" class="back-btn">← Volver al portafolio</a>
+            </div>
+            <div>
+                <h1>Nestor Leiva</h1>
+                <div class="contact-info">
+                    <p>+506 0000-0000</p>
+                    <p>nestor.leiva@email.com</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-wrapper">
+        <!-- Card principal del proyecto -->
+        <div class="project-detail-card">
+            <!-- Imagen principal (placeholder - reemplaza con tu captura) -->
+            <div class="project-image-section">
+                <div class="project-image-placeholder">
+                    <span>🖥️</span>
+                    <p>Captura interfaz<br>Tkinter</p>
+                </div>
+            </div>
+
+            <!-- Detalles del proyecto -->
+            <div class="project-details">
+                <h1 class="project-title">Cajero Automático<br>con Tkinter</h1>
+
+                <div class="project-meta">
+                    <span class="meta-item">Tarea Programada #6</span>
+                    <span class="meta-item">Python + SQL Server</span>
+                    <span class="meta-item">2024</span>
+                </div>
+
+                <div class="section-title">Objetivo del proyecto</div>
+                <p class="project-description">
+                    Sistema completo de cajeros automáticos desarrollado con <strong>Tkinter</strong>
+                    (interfaz gráfica) y <strong>SQL Server 2016</strong>. Implementa selección de cajeros
+                    disponibles, operaciones bancarias (depósitos, retiros, consultas) con validaciones
+                    y auditoría completa de transacciones en base de datos.
+                </p>
+
+                <div class="section-title">Tecnologías utilizadas</div>
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <strong>Lenguaje:</strong> Python 3.x
+                    </div>
+                    <div class="tech-item">
+                        <strong>Interfaz:</strong> Tkinter (GUI)
+                    </div>
+                    <div class="tech-item">
+                        <strong>Base de datos:</strong> SQL Server 2016 (Nivel 130)
+                    </div>
+                    <div class="tech-item">
+                        <strong>Tablas:</strong> Usuarios, Bancos, Cuentas, Auditoría
+                    </div>
+                </div>
+
+                <div class="section-title">Repositorio fuente</div>
+                <div class="github-link">
+                    <a href="https://github.com/NestorLeiva/TareasPython" target="_blank"
+                        class="github-btn">
+                        Tarea #6 en GitHub
+                    </a>
+                </div>
+
+                <div class="section-title">Funcionalidades principales</div>
+                <ul class="features-list">
+                    <li>Menú principal con selección de cajeros (estado: libre/ocupado/mantenimiento)</li>
+                    <li>Autenticación de usuarios con credenciales simuladas</li>
+                    <li>Transacciones: depósito, retiro, consulta de saldo, cambio de cajero</li>
+                    <li>Validaciones de montos y límites de transacción</li>
+                    <li>Base de datos relacional con tablas de auditoría</li>
+                    <li>Diagrama Entidad-Relación diseñado</li>
+                    <li>Carga automática de datos iniciales</li>
+                </ul>
+
+                <div class="section-title">Características técnicas</div>
+                <div class="tech-features">
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <strong>Interfaz gráfica:</strong> Tkinter con estilos personalizados
+                        </div>
+                        <div class="feature-item">
+                            <strong>Estados cajero:</strong> Libre, Ocupado, Mantenimiento, Fuera de servicio
+                        </div>
+                        <div class="feature-item">
+                            <strong>Persistencia:</strong> SQL Server con tablas relacionales
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
